@@ -1,0 +1,73 @@
+1...
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  //fix the code below this line
+
+  int a = 4;
+  int b = 9;
+
+  //fix the code above this line
+  
+  cout << (a * 3 + b - 8 / 2) << endl;
+  
+  return 0;
+  
+}
+
+...
+2...
+cout<<boolalpha<<(5==4);
+...
+3...
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+string a = "Hello ";
+string b = "world";
+cout << (a + b) << endl;
+  return 0;
+  
+}
+...
+4...
+#include <iostream>
+using namespace std;
+
+int main() {
+  float a=7;
+  float b=2;
+  cout<<a/b<<endl;
+  
+  return 0;
+  
+}
+...
+5...
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  int num1;
+  int num2;
+  cout << "Type the first whole number and then press Enter or Return: ";
+  cin >> num1;
+  cout << "Type the second whole number and then press Enter or Return: ";
+  cin >>num2;
+  
+  //fix the code below this line
+
+  int sum = num1 + num2;
+  cout << num1 << " + " << num2 <<" = " << sum << endl;
+
+  //fix the code above this line
+  
+  return 0;
+  
+}
+...
