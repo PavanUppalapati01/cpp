@@ -1,0 +1,57 @@
+1...
+
+for(int i=0;i<3;i++)
+{
+  tina.forward(100);
+  tina.left(120);
+}
+...
+2...
+for(int i=0;i<10;i++)
+{
+  cout<<x<<endl;
+}
+...
+3...
+int sum = 0;
+int iter = a;
+  
+while (iter <= b) {
+  sum += iter;
+  iter++;
+}
+  
+if (a == b) {
+  sum = a;
+}
+  
+cout << sum << endl;
+
+...
+4...
+  for (int i = 100; i <= 100; i--) {
+    if (i == 0) {
+      cout << "Print me!" << endl;
+      break;
+    }
+    else {
+      while (true) {
+        break;
+        i++;
+        cout << "Don't print me!" << endl;
+      }
+    }
+  }
+...
+5...
+  int n=5,nt=0;
+  for(int i=5;i>0;i--)
+  {
+    for(int j=0;j<i-1;j++)
+    {
+      cout<<".";
+    }
+    ++nt;
+    cout<<nt<<endl;
+  }
+...
